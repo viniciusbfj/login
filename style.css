@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Roboto Condensed, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+}
+
+h1 {
+    position: relative;
+    width: 980px;
+    margin: 30px auto;
+}
+
+form {
+    margin: 200px;
+}
+
+label {
+    font-size: 25px;
+    display: block;
+    margin: 0 0 10px;
+   
+}
+.redefinir{
+    margin: 30px;
+    font-size: 35px;
+    padding: 40px;
+}
+.codigo{
+    margin-top: 30px;
+}
+
+input {
+    display: block;
+    border-radius: 8px;
+    color: brown;
+    padding: 10px;
+    width: 450px;
+    margin: 0 0 10px; 
+    border-color: rgb(255, 246, 230);
+    background-color: rgb(255, 246, 230);
+}
+
+button {
+    background-color: coral;
+    margin:0 0 10px;
+    padding: 10px;
+    width: 225px;
+    border-radius: 10px;
+    font-size: 20px;
+    align-items: center;
+    border-color: coral;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: coral;
+    width: 50%; 
+    margin: 85px;
+}
+header a{
+    text-align: right;
+}
+
+a:hover {
+    color: blue;
+    font-size: 21px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: blue;
+    transition: 0.5s;
+}
